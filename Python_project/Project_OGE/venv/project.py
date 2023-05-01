@@ -823,8 +823,7 @@ class Trigan_Window(QMainWindow):
 
         self.rec_btn.clicked.connect(self.recursion)
 
-        result = cur.execute("""SELECT * FROM Trigonometry
-                                                            WHERE Way like '%'""")
+        result = cur.execute("""SELECT * FROM Trigonometry WHERE Way like '%'""")
         if COUNT_ARRAY == 0:
             array = list(result)
             random.shuffle(array)
