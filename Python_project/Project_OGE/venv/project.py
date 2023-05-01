@@ -17,6 +17,7 @@ COUNT_TRUES_ANGLES = 0
 TIMER = 0
 TIME_COUNT = 0
 COUNT_ARRAY = 0
+
 global begin, array
 
 
