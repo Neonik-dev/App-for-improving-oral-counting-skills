@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QFrame, QColorDi
 from PyQt5.QtWidgets import QMainWindow, QLabel, QLineEdit, QMessageBox, QLCDNumber
 from PyQt5.QtGui import QPixmap
 
-NAME_USER = "Noname"
+NAME_USER = "NoName"
 AUTH_OR_REG = 0
 COUNT_TRIES_EQUATIONS = 0
 COUNT_TRUES_EQUATIONS = 0
